@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C48CD75827041A583B263E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE260912555743F1AD3405E8 /* libPods.a */; };
+		6425F10A191BA5DF00B83E67 /* TimRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6425F109191BA5DF00B83E67 /* TimRequest.m */; };
+		646A722E18EFE1DF00031C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A722D18EFE1DF00031C34 /* Foundation.framework */; };
+		646A723018EFE1DF00031C34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A722F18EFE1DF00031C34 /* CoreGraphics.framework */; };
+		646A723218EFE1DF00031C34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A723118EFE1DF00031C34 /* UIKit.framework */; };
+		646A723418EFE1DF00031C34 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A723318EFE1DF00031C34 /* CoreData.framework */; };
+		646A723A18EFE1DF00031C34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 646A723818EFE1DF00031C34 /* InfoPlist.strings */; };
+		646A723C18EFE1DF00031C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A723B18EFE1DF00031C34 /* main.m */; };
+		646A724018EFE1DF00031C34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A723F18EFE1DF00031C34 /* AppDelegate.m */; };
+		646A724318EFE1E000031C34 /* CRM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 646A724118EFE1E000031C34 /* CRM.xcdatamodeld */; };
+		646A724C18EFE1E000031C34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A724B18EFE1E000031C34 /* XCTest.framework */; };
+		646A724D18EFE1E000031C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A722D18EFE1DF00031C34 /* Foundation.framework */; };
+		646A724E18EFE1E000031C34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A723118EFE1DF00031C34 /* UIKit.framework */; };
+		646A724F18EFE1E000031C34 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A723318EFE1DF00031C34 /* CoreData.framework */; };
+		646A725718EFE1E000031C34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 646A725518EFE1E000031C34 /* InfoPlist.strings */; };
+		646A725918EFE1E000031C34 /* CRMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A725818EFE1E000031C34 /* CRMTests.m */; };
+		646A729718EFE43600031C34 /* TimNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A728B18EFE43600031C34 /* TimNavigationBar.m */; };
+		646A729818EFE43600031C34 /* TimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A728E18EFE43600031C34 /* TimViewController.m */; };
+		646A729B18EFE43600031C34 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A729618EFE43600031C34 /* UIImage+Resize.m */; };
+		646A72A118EFE4BE00031C34 /* NSDate+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A729E18EFE4BE00031C34 /* NSDate+Conversion.m */; };
+		646A72A218EFE4BE00031C34 /* NSString+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A72A018EFE4BE00031C34 /* NSString+Conversion.m */; };
+		646A72AA18EFEA4500031C34 /* CRMPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A72A818EFEA4500031C34 /* CRMPatientViewController.m */; };
+		646A72AB18EFEA4500031C34 /* CRMPatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646A72A918EFEA4500031C34 /* CRMPatientViewController.xib */; };
+		646A72C418F10CA700031C34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646A72C318F10CA700031C34 /* Images.xcassets */; };
+		646A72C718F10DBB00031C34 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A72C518F10DBB00031C34 /* Icon.png */; };
+		646A72C818F10DBB00031C34 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A72C618F10DBB00031C34 /* Icon@2x.png */; };
+		64B52CC21917A46400D988D8 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B52CBF1917A46400D988D8 /* libMobClickLibrary.a */; };
+		64B52CC51917A63900D988D8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B52CC41917A63900D988D8 /* libz.dylib */; };
+		64B52CCB19190B9800D988D8 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B52CCA19190B9800D988D8 /* DBManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		646A725018EFE1E000031C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 646A722218EFE1DF00031C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 646A722918EFE1DF00031C34;
+			remoteInfo = CRM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6425F108191BA5DF00B83E67 /* TimRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimRequest.h; sourceTree = "<group>"; };
+		6425F109191BA5DF00B83E67 /* TimRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimRequest.m; sourceTree = "<group>"; };
+		646A722A18EFE1DF00031C34 /* CRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		646A722D18EFE1DF00031C34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		646A722F18EFE1DF00031C34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		646A723118EFE1DF00031C34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		646A723318EFE1DF00031C34 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		646A723718EFE1DF00031C34 /* CRM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRM-Info.plist"; sourceTree = "<group>"; };
+		646A723918EFE1DF00031C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		646A723B18EFE1DF00031C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		646A723D18EFE1DF00031C34 /* CRM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRM-Prefix.pch"; sourceTree = "<group>"; };
+		646A723E18EFE1DF00031C34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CRM/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		646A723F18EFE1DF00031C34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CRM/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		646A724218EFE1E000031C34 /* CRM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CRM.xcdatamodel; sourceTree = "<group>"; };
+		646A724A18EFE1E000031C34 /* CRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646A724B18EFE1E000031C34 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		646A725418EFE1E000031C34 /* CRMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRMTests-Info.plist"; sourceTree = "<group>"; };
+		646A725618EFE1E000031C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		646A725818EFE1E000031C34 /* CRMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMTests.m; sourceTree = "<group>"; };
+		646A726818EFE36400031C34 /* TimFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimFramework.h; sourceTree = "<group>"; };
+		646A726A18EFE36400031C34 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		646A728A18EFE43600031C34 /* TimNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimNavigationBar.h; sourceTree = "<group>"; };
+		646A728B18EFE43600031C34 /* TimNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimNavigationBar.m; sourceTree = "<group>"; };
+		646A728C18EFE43600031C34 /* TimUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimUIKit.h; path = "UI Sub class/TimUIKit.h"; sourceTree = "<group>"; };
+		646A728D18EFE43600031C34 /* TimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimViewController.h; sourceTree = "<group>"; };
+		646A728E18EFE43600031C34 /* TimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimViewController.m; sourceTree = "<group>"; };
+		646A729418EFE43600031C34 /* TimCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimCategory.h; sourceTree = "<group>"; };
+		646A729518EFE43600031C34 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		646A729618EFE43600031C34 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		646A729D18EFE4BE00031C34 /* NSDate+Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Conversion.h"; sourceTree = "<group>"; };
+		646A729E18EFE4BE00031C34 /* NSDate+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Conversion.m"; sourceTree = "<group>"; };
+		646A729F18EFE4BE00031C34 /* NSString+Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Conversion.h"; sourceTree = "<group>"; };
+		646A72A018EFE4BE00031C34 /* NSString+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Conversion.m"; sourceTree = "<group>"; };
+		646A72A418EFE53400031C34 /* TimFoundationCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimFoundationCategory.h; sourceTree = "<group>"; };
+		646A72A518EFE7BA00031C34 /* UISubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISubClass.h; sourceTree = "<group>"; };
+		646A72A618EFE86A00031C34 /* TimFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimFoundation.h; sourceTree = "<group>"; };
+		646A72A718EFEA4500031C34 /* CRMPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMPatientViewController.h; sourceTree = "<group>"; };
+		646A72A818EFEA4500031C34 /* CRMPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMPatientViewController.m; sourceTree = "<group>"; };
+		646A72A918EFEA4500031C34 /* CRMPatientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRMPatientViewController.xib; sourceTree = "<group>"; };
+		646A72C318F10CA700031C34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		646A72C518F10DBB00031C34 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		646A72C618F10DBB00031C34 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		64B52CBF1917A46400D988D8 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		64B52CC11917A46400D988D8 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		64B52CC41917A63900D988D8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		64B52CC919190B9800D988D8 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		64B52CCA19190B9800D988D8 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		7A99EAEA497C4B3BA3423409 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EE260912555743F1AD3405E8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		646A722718EFE1DF00031C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B52CC51917A63900D988D8 /* libz.dylib in Frameworks */,
+				646A723018EFE1DF00031C34 /* CoreGraphics.framework in Frameworks */,
+				646A723418EFE1DF00031C34 /* CoreData.framework in Frameworks */,
+				646A723218EFE1DF00031C34 /* UIKit.framework in Frameworks */,
+				646A722E18EFE1DF00031C34 /* Foundation.framework in Frameworks */,
+				64B52CC21917A46400D988D8 /* libMobClickLibrary.a in Frameworks */,
+				0C48CD75827041A583B263E0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A724718EFE1E000031C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A724C18EFE1E000031C34 /* XCTest.framework in Frameworks */,
+				646A724F18EFE1E000031C34 /* CoreData.framework in Frameworks */,
+				646A724E18EFE1E000031C34 /* UIKit.framework in Frameworks */,
+				646A724D18EFE1E000031C34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6425F107191BA5AD00B83E67 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6425F108191BA5DF00B83E67 /* TimRequest.h */,
+				6425F109191BA5DF00B83E67 /* TimRequest.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		646A722118EFE1DF00031C34 = {
+			isa = PBXGroup;
+			children = (
+				646A723518EFE1DF00031C34 /* CRM */,
+				646A725218EFE1E000031C34 /* CRMTests */,
+				646A722C18EFE1DF00031C34 /* Frameworks */,
+				646A722B18EFE1DF00031C34 /* Products */,
+				7A99EAEA497C4B3BA3423409 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		646A722B18EFE1DF00031C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				646A722A18EFE1DF00031C34 /* CRM.app */,
+				646A724A18EFE1E000031C34 /* CRMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		646A722C18EFE1DF00031C34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B52CC41917A63900D988D8 /* libz.dylib */,
+				646A722D18EFE1DF00031C34 /* Foundation.framework */,
+				646A722F18EFE1DF00031C34 /* CoreGraphics.framework */,
+				646A723118EFE1DF00031C34 /* UIKit.framework */,
+				646A723318EFE1DF00031C34 /* CoreData.framework */,
+				646A724B18EFE1E000031C34 /* XCTest.framework */,
+				EE260912555743F1AD3405E8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		646A723518EFE1DF00031C34 /* CRM */ = {
+			isa = PBXGroup;
+			children = (
+				646A726218EFE2FA00031C34 /* App */,
+				646A726318EFE2FA00031C34 /* Patient */,
+				6425F107191BA5AD00B83E67 /* Network */,
+				64B52CC819190B3700D988D8 /* Database */,
+				646A72AC18F1032D00031C34 /* Images */,
+				64B52CBD1917A46400D988D8 /* ThirdPart */,
+				646A726718EFE36400031C34 /* TimFramework */,
+				646A723618EFE1DF00031C34 /* Supporting Files */,
+			);
+			path = CRM;
+			sourceTree = "<group>";
+		};
+		646A723618EFE1DF00031C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				646A72C318F10CA700031C34 /* Images.xcassets */,
+				646A724118EFE1E000031C34 /* CRM.xcdatamodeld */,
+				646A723718EFE1DF00031C34 /* CRM-Info.plist */,
+				646A723818EFE1DF00031C34 /* InfoPlist.strings */,
+				646A723B18EFE1DF00031C34 /* main.m */,
+				646A723D18EFE1DF00031C34 /* CRM-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		646A725218EFE1E000031C34 /* CRMTests */ = {
+			isa = PBXGroup;
+			children = (
+				646A725818EFE1E000031C34 /* CRMTests.m */,
+				646A725318EFE1E000031C34 /* Supporting Files */,
+			);
+			path = CRMTests;
+			sourceTree = "<group>";
+		};
+		646A725318EFE1E000031C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				646A725418EFE1E000031C34 /* CRMTests-Info.plist */,
+				646A725518EFE1E000031C34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		646A726218EFE2FA00031C34 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				646A723E18EFE1DF00031C34 /* AppDelegate.h */,
+				646A723F18EFE1DF00031C34 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		646A726318EFE2FA00031C34 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				646A726418EFE32700031C34 /* Controller */,
+				646A726518EFE32700031C34 /* Mode */,
+				646A726618EFE32700031C34 /* View */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		646A726418EFE32700031C34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				646A72A718EFEA4500031C34 /* CRMPatientViewController.h */,
+				646A72A818EFEA4500031C34 /* CRMPatientViewController.m */,
+				646A72A918EFEA4500031C34 /* CRMPatientViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		646A726518EFE32700031C34 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		646A726618EFE32700031C34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646A726718EFE36400031C34 /* TimFramework */ = {
+			isa = PBXGroup;
+			children = (
+				646A726818EFE36400031C34 /* TimFramework.h */,
+				646A728718EFE43600031C34 /* TimFoundation */,
+				646A728818EFE43600031C34 /* TimUIKit */,
+				646A726918EFE36400031C34 /* TimMacro */,
+			);
+			path = TimFramework;
+			sourceTree = "<group>";
+		};
+		646A726918EFE36400031C34 /* TimMacro */ = {
+			isa = PBXGroup;
+			children = (
+				646A726A18EFE36400031C34 /* CommonMacro.h */,
+			);
+			path = TimMacro;
+			sourceTree = "<group>";
+		};
+		646A728718EFE43600031C34 /* TimFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				646A72A618EFE86A00031C34 /* TimFoundation.h */,
+				646A729C18EFE47300031C34 /* Foundation+Category */,
+			);
+			path = TimFoundation;
+			sourceTree = "<group>";
+		};
+		646A728818EFE43600031C34 /* TimUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				646A728C18EFE43600031C34 /* TimUIKit.h */,
+				646A728918EFE43600031C34 /* UI Sub class */,
+				646A728F18EFE43600031C34 /* UI+Category */,
+			);
+			path = TimUIKit;
+			sourceTree = "<group>";
+		};
+		646A728918EFE43600031C34 /* UI Sub class */ = {
+			isa = PBXGroup;
+			children = (
+				646A72A518EFE7BA00031C34 /* UISubClass.h */,
+				646A728A18EFE43600031C34 /* TimNavigationBar.h */,
+				646A728B18EFE43600031C34 /* TimNavigationBar.m */,
+				646A728D18EFE43600031C34 /* TimViewController.h */,
+				646A728E18EFE43600031C34 /* TimViewController.m */,
+			);
+			path = "UI Sub class";
+			sourceTree = "<group>";
+		};
+		646A728F18EFE43600031C34 /* UI+Category */ = {
+			isa = PBXGroup;
+			children = (
+				646A729418EFE43600031C34 /* TimCategory.h */,
+				646A729518EFE43600031C34 /* UIImage+Resize.h */,
+				646A729618EFE43600031C34 /* UIImage+Resize.m */,
+			);
+			path = "UI+Category";
+			sourceTree = "<group>";
+		};
+		646A729C18EFE47300031C34 /* Foundation+Category */ = {
+			isa = PBXGroup;
+			children = (
+				646A72A418EFE53400031C34 /* TimFoundationCategory.h */,
+				646A729D18EFE4BE00031C34 /* NSDate+Conversion.h */,
+				646A729E18EFE4BE00031C34 /* NSDate+Conversion.m */,
+				646A729F18EFE4BE00031C34 /* NSString+Conversion.h */,
+				646A72A018EFE4BE00031C34 /* NSString+Conversion.m */,
+			);
+			path = "Foundation+Category";
+			sourceTree = "<group>";
+		};
+		646A72AC18F1032D00031C34 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				646A72C518F10DBB00031C34 /* Icon.png */,
+				646A72C618F10DBB00031C34 /* Icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		64B52CBD1917A46400D988D8 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				64B52CBE1917A46400D988D8 /* UMAnalytics_Sdk_2.2.1.OpenUDID */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		64B52CBE1917A46400D988D8 /* UMAnalytics_Sdk_2.2.1.OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				64B52CBF1917A46400D988D8 /* libMobClickLibrary.a */,
+				64B52CC11917A46400D988D8 /* MobClick.h */,
+			);
+			path = UMAnalytics_Sdk_2.2.1.OpenUDID;
+			sourceTree = "<group>";
+		};
+		64B52CC819190B3700D988D8 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				64B52CC919190B9800D988D8 /* DBManager.h */,
+				64B52CCA19190B9800D988D8 /* DBManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		646A722918EFE1DF00031C34 /* CRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646A725C18EFE1E000031C34 /* Build configuration list for PBXNativeTarget "CRM" */;
+			buildPhases = (
+				A082C6ADCAF34943BD99185B /* Check Pods Manifest.lock */,
+				646A722618EFE1DF00031C34 /* Sources */,
+				646A722718EFE1DF00031C34 /* Frameworks */,
+				646A722818EFE1DF00031C34 /* Resources */,
+				ECB26223C110494A8824B100 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRM;
+			productName = CRM;
+			productReference = 646A722A18EFE1DF00031C34 /* CRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		646A724918EFE1E000031C34 /* CRMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646A725F18EFE1E000031C34 /* Build configuration list for PBXNativeTarget "CRMTests" */;
+			buildPhases = (
+				646A724618EFE1E000031C34 /* Sources */,
+				646A724718EFE1E000031C34 /* Frameworks */,
+				646A724818EFE1E000031C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646A725118EFE1E000031C34 /* PBXTargetDependency */,
+			);
+			name = CRMTests;
+			productName = CRMTests;
+			productReference = 646A724A18EFE1E000031C34 /* CRMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		646A722218EFE1DF00031C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TimTiger;
+				TargetAttributes = {
+					646A724918EFE1E000031C34 = {
+						TestTargetID = 646A722918EFE1DF00031C34;
+					};
+				};
+			};
+			buildConfigurationList = 646A722518EFE1DF00031C34 /* Build configuration list for PBXProject "CRM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 646A722118EFE1DF00031C34;
+			productRefGroup = 646A722B18EFE1DF00031C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				646A722918EFE1DF00031C34 /* CRM */,
+				646A724918EFE1E000031C34 /* CRMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		646A722818EFE1DF00031C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A72C718F10DBB00031C34 /* Icon.png in Resources */,
+				646A72C418F10CA700031C34 /* Images.xcassets in Resources */,
+				646A723A18EFE1DF00031C34 /* InfoPlist.strings in Resources */,
+				646A72AB18EFEA4500031C34 /* CRMPatientViewController.xib in Resources */,
+				646A72C818F10DBB00031C34 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A724818EFE1E000031C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A725718EFE1E000031C34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A082C6ADCAF34943BD99185B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB26223C110494A8824B100 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		646A722618EFE1DF00031C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A729B18EFE43600031C34 /* UIImage+Resize.m in Sources */,
+				646A72A218EFE4BE00031C34 /* NSString+Conversion.m in Sources */,
+				646A729718EFE43600031C34 /* TimNavigationBar.m in Sources */,
+				646A72AA18EFEA4500031C34 /* CRMPatientViewController.m in Sources */,
+				646A729818EFE43600031C34 /* TimViewController.m in Sources */,
+				646A72A118EFE4BE00031C34 /* NSDate+Conversion.m in Sources */,
+				646A724018EFE1DF00031C34 /* AppDelegate.m in Sources */,
+				6425F10A191BA5DF00B83E67 /* TimRequest.m in Sources */,
+				646A723C18EFE1DF00031C34 /* main.m in Sources */,
+				646A724318EFE1E000031C34 /* CRM.xcdatamodeld in Sources */,
+				64B52CCB19190B9800D988D8 /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646A724618EFE1E000031C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A725918EFE1E000031C34 /* CRMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		646A725118EFE1E000031C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 646A722918EFE1DF00031C34 /* CRM */;
+			targetProxy = 646A725018EFE1E000031C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		646A723818EFE1DF00031C34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646A723918EFE1DF00031C34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		646A725518EFE1E000031C34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646A725618EFE1E000031C34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		646A725A18EFE1E000031C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		646A725B18EFE1E000031C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		646A725D18EFE1E000031C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A99EAEA497C4B3BA3423409 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRM/CRM-Prefix.pch";
+				INFOPLIST_FILE = "CRM/CRM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CRM/ThirdPart/UMAnalytics_Sdk_2.2.1.OpenUDID",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		646A725E18EFE1E000031C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A99EAEA497C4B3BA3423409 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRM/CRM-Prefix.pch";
+				INFOPLIST_FILE = "CRM/CRM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CRM/ThirdPart/UMAnalytics_Sdk_2.2.1.OpenUDID",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		646A726018EFE1E000031C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CRM.app/CRM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRM/CRM-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CRMTests/CRMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		646A726118EFE1E000031C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CRM.app/CRM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRM/CRM-Prefix.pch";
+				INFOPLIST_FILE = "CRMTests/CRMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		646A722518EFE1DF00031C34 /* Build configuration list for PBXProject "CRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646A725A18EFE1E000031C34 /* Debug */,
+				646A725B18EFE1E000031C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646A725C18EFE1E000031C34 /* Build configuration list for PBXNativeTarget "CRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646A725D18EFE1E000031C34 /* Debug */,
+				646A725E18EFE1E000031C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646A725F18EFE1E000031C34 /* Build configuration list for PBXNativeTarget "CRMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646A726018EFE1E000031C34 /* Debug */,
+				646A726118EFE1E000031C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		646A724118EFE1E000031C34 /* CRM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				646A724218EFE1E000031C34 /* CRM.xcdatamodel */,
+			);
+			currentVersion = 646A724218EFE1E000031C34 /* CRM.xcdatamodel */;
+			path = CRM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 646A722218EFE1DF00031C34 /* Project object */;
+}
