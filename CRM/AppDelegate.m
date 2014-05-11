@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "CRMPatientViewController.h"
 #import "MobClick.h"
 #import "DBManager.h"
 
@@ -28,8 +27,6 @@
     [MobClick setAppVersion:version];
     
     //3.显示界面
-    CRMPatientViewController *mainVC = [[CRMPatientViewController alloc]initWithNibName:@"CRMPatientViewController" bundle:nil];
-    self.window.rootViewController = mainVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
