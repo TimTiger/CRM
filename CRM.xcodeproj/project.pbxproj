@@ -28,8 +28,6 @@
 		646A729B18EFE43600031C34 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A729618EFE43600031C34 /* UIImage+Resize.m */; };
 		646A72A118EFE4BE00031C34 /* NSDate+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A729E18EFE4BE00031C34 /* NSDate+Conversion.m */; };
 		646A72A218EFE4BE00031C34 /* NSString+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A72A018EFE4BE00031C34 /* NSString+Conversion.m */; };
-		646A72AA18EFEA4500031C34 /* CRMPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A72A818EFEA4500031C34 /* CRMPatientViewController.m */; };
-		646A72AB18EFEA4500031C34 /* CRMPatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646A72A918EFEA4500031C34 /* CRMPatientViewController.xib */; };
 		646A72C418F10CA700031C34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646A72C318F10CA700031C34 /* Images.xcassets */; };
 		646A72C718F10DBB00031C34 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A72C518F10DBB00031C34 /* Icon.png */; };
 		646A72C818F10DBB00031C34 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A72C618F10DBB00031C34 /* Icon@2x.png */; };
@@ -85,9 +83,6 @@
 		646A72A418EFE53400031C34 /* TimFoundationCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimFoundationCategory.h; sourceTree = "<group>"; };
 		646A72A518EFE7BA00031C34 /* UISubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISubClass.h; sourceTree = "<group>"; };
 		646A72A618EFE86A00031C34 /* TimFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimFoundation.h; sourceTree = "<group>"; };
-		646A72A718EFEA4500031C34 /* CRMPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMPatientViewController.h; sourceTree = "<group>"; };
-		646A72A818EFEA4500031C34 /* CRMPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMPatientViewController.m; sourceTree = "<group>"; };
-		646A72A918EFEA4500031C34 /* CRMPatientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRMPatientViewController.xib; sourceTree = "<group>"; };
 		646A72C318F10CA700031C34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		646A72C518F10DBB00031C34 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		646A72C618F10DBB00031C34 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -243,9 +238,6 @@
 		646A726418EFE32700031C34 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				646A72A718EFEA4500031C34 /* CRMPatientViewController.h */,
-				646A72A818EFEA4500031C34 /* CRMPatientViewController.m */,
-				646A72A918EFEA4500031C34 /* CRMPatientViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -544,7 +536,6 @@
 				646A72C718F10DBB00031C34 /* Icon.png in Resources */,
 				646A72C418F10CA700031C34 /* Images.xcassets in Resources */,
 				646A723A18EFE1DF00031C34 /* InfoPlist.strings in Resources */,
-				646A72AB18EFEA4500031C34 /* CRMPatientViewController.xib in Resources */,
 				646A72C818F10DBB00031C34 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,7 +591,6 @@
 				646A729B18EFE43600031C34 /* UIImage+Resize.m in Sources */,
 				646A72A218EFE4BE00031C34 /* NSString+Conversion.m in Sources */,
 				646A729718EFE43600031C34 /* TimNavigationBar.m in Sources */,
-				646A72AA18EFEA4500031C34 /* CRMPatientViewController.m in Sources */,
 				646A729818EFE43600031C34 /* TimViewController.m in Sources */,
 				646A72A118EFE4BE00031C34 /* NSDate+Conversion.m in Sources */,
 				646A724018EFE1DF00031C34 /* AppDelegate.m in Sources */,
