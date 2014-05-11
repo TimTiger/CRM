@@ -100,6 +100,15 @@
 		64F79D04191F5C4600A330A0 /* tmp1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmp1.m; sourceTree = "<group>"; };
 		64F79D06191F5C5A00A330A0 /* tmp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp2.h; sourceTree = "<group>"; };
 		64F79D07191F5C5A00A330A0 /* tmp2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmp2.m; sourceTree = "<group>"; };
+		64F79D0B191F614E00A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D0D191F614E00A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D0F191F614E00A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D12191F63E000A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D14191F63E000A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D16191F63E000A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D19191F644800A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D1B191F644800A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D1D191F644800A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
 		7A99EAEA497C4B3BA3423409 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EE260912555743F1AD3405E8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -179,9 +188,11 @@
 		646A723518EFE1DF00031C34 /* CRM */ = {
 			isa = PBXGroup;
 			children = (
+				64F79D17191F644800A330A0 /* Personal Center */,
+				64F79D10191F63E000A330A0 /* Materials */,
+				64F79D09191F614E00A330A0 /* Patient */,
 				64F79CFC191F58CC00A330A0 /* Introducer */,
 				646A726218EFE2FA00031C34 /* App */,
-				646A726318EFE2FA00031C34 /* Patient */,
 				6425F107191BA5AD00B83E67 /* Network */,
 				64B52CC819190B3700D988D8 /* Database */,
 				646A72AC18F1032D00031C34 /* Images */,
@@ -230,37 +241,6 @@
 				646A723F18EFE1DF00031C34 /* AppDelegate.m */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		646A726318EFE2FA00031C34 /* Patient */ = {
-			isa = PBXGroup;
-			children = (
-				646A726418EFE32700031C34 /* Controller */,
-				646A726518EFE32700031C34 /* Mode */,
-				646A726618EFE32700031C34 /* View */,
-			);
-			path = Patient;
-			sourceTree = "<group>";
-		};
-		646A726418EFE32700031C34 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		646A726518EFE32700031C34 /* Mode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mode;
-			sourceTree = "<group>";
-		};
-		646A726618EFE32700031C34 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		646A726718EFE36400031C34 /* TimFramework */ = {
@@ -403,6 +383,108 @@
 			children = (
 				64F79D06191F5C5A00A330A0 /* tmp2.h */,
 				64F79D07191F5C5A00A330A0 /* tmp2.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64F79D09191F614E00A330A0 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D0A191F614E00A330A0 /* Contoller */,
+				64F79D0C191F614E00A330A0 /* Mode */,
+				64F79D0E191F614E00A330A0 /* View */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		64F79D0A191F614E00A330A0 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D0B191F614E00A330A0 /* tmp.h */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		64F79D0C191F614E00A330A0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D0D191F614E00A330A0 /* tmp.h */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		64F79D0E191F614E00A330A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D0F191F614E00A330A0 /* tmp.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64F79D10191F63E000A330A0 /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D11191F63E000A330A0 /* Controller */,
+				64F79D13191F63E000A330A0 /* Mode */,
+				64F79D15191F63E000A330A0 /* View */,
+			);
+			path = Materials;
+			sourceTree = "<group>";
+		};
+		64F79D11191F63E000A330A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D12191F63E000A330A0 /* tmp.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64F79D13191F63E000A330A0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D14191F63E000A330A0 /* tmp.h */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		64F79D15191F63E000A330A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D16191F63E000A330A0 /* tmp.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64F79D17191F644800A330A0 /* Personal Center */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D18191F644800A330A0 /* Controller */,
+				64F79D1A191F644800A330A0 /* Mode */,
+				64F79D1C191F644800A330A0 /* View */,
+			);
+			path = "Personal Center";
+			sourceTree = "<group>";
+		};
+		64F79D18191F644800A330A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D19191F644800A330A0 /* tmp.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64F79D1A191F644800A330A0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D1B191F644800A330A0 /* tmp.h */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		64F79D1C191F644800A330A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64F79D1D191F644800A330A0 /* tmp.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
