@@ -34,6 +34,9 @@
 		64B52CC21917A46400D988D8 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B52CBF1917A46400D988D8 /* libMobClickLibrary.a */; };
 		64B52CC51917A63900D988D8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B52CC41917A63900D988D8 /* libz.dylib */; };
 		64B52CCB19190B9800D988D8 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B52CCA19190B9800D988D8 /* DBManager.m */; };
+		64F79D02191F5C3500A330A0 /* tmp.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F79D01191F5C3500A330A0 /* tmp.m */; };
+		64F79D05191F5C4600A330A0 /* tmp1.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F79D04191F5C4600A330A0 /* tmp1.m */; };
+		64F79D08191F5C5A00A330A0 /* tmp2.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F79D07191F5C5A00A330A0 /* tmp2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +94,12 @@
 		64B52CC41917A63900D988D8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		64B52CC919190B9800D988D8 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 		64B52CCA19190B9800D988D8 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		64F79D00191F5C3500A330A0 /* tmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp.h; sourceTree = "<group>"; };
+		64F79D01191F5C3500A330A0 /* tmp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmp.m; sourceTree = "<group>"; };
+		64F79D03191F5C4600A330A0 /* tmp1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp1.h; sourceTree = "<group>"; };
+		64F79D04191F5C4600A330A0 /* tmp1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmp1.m; sourceTree = "<group>"; };
+		64F79D06191F5C5A00A330A0 /* tmp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmp2.h; sourceTree = "<group>"; };
+		64F79D07191F5C5A00A330A0 /* tmp2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmp2.m; sourceTree = "<group>"; };
 		7A99EAEA497C4B3BA3423409 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EE260912555743F1AD3405E8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -170,10 +179,8 @@
 		646A723518EFE1DF00031C34 /* CRM */ = {
 			isa = PBXGroup;
 			children = (
+				64F79CFC191F58CC00A330A0 /* Introducer */,
 				646A726218EFE2FA00031C34 /* App */,
-				64F79CEC191F250800A330A0 /* Introducer */,
-				64F79CF0191F250800A330A0 /* Materials */,
-				64F79CF4191F250800A330A0 /* Personal Center */,
 				646A726318EFE2FA00031C34 /* Patient */,
 				6425F107191BA5AD00B83E67 /* Network */,
 				64B52CC819190B3700D988D8 /* Database */,
@@ -363,95 +370,39 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
-		64F79CEC191F250800A330A0 /* Introducer */ = {
+		64F79CFC191F58CC00A330A0 /* Introducer */ = {
 			isa = PBXGroup;
 			children = (
-				64F79CED191F250800A330A0 /* Controller */,
-				64F79CEE191F250800A330A0 /* Mode */,
-				64F79CEF191F250800A330A0 /* View */,
+				64F79CFD191F5C1500A330A0 /* Controller */,
+				64F79CFE191F5C1500A330A0 /* Mode */,
+				64F79CFF191F5C1500A330A0 /* View */,
 			);
 			path = Introducer;
 			sourceTree = "<group>";
 		};
-		64F79CED191F250800A330A0 /* Controller */ = {
+		64F79CFD191F5C1500A330A0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				64F79D00191F5C3500A330A0 /* tmp.h */,
+				64F79D01191F5C3500A330A0 /* tmp.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		64F79CEE191F250800A330A0 /* Mode */ = {
+		64F79CFE191F5C1500A330A0 /* Mode */ = {
 			isa = PBXGroup;
 			children = (
+				64F79D03191F5C4600A330A0 /* tmp1.h */,
+				64F79D04191F5C4600A330A0 /* tmp1.m */,
 			);
 			path = Mode;
 			sourceTree = "<group>";
 		};
-		64F79CEF191F250800A330A0 /* View */ = {
+		64F79CFF191F5C1500A330A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		64F79CF0191F250800A330A0 /* Materials */ = {
-			isa = PBXGroup;
-			children = (
-				64F79CF1191F250800A330A0 /* Controller */,
-				64F79CF2191F250800A330A0 /* Mode */,
-				64F79CF3191F250800A330A0 /* View */,
-			);
-			path = Materials;
-			sourceTree = "<group>";
-		};
-		64F79CF1191F250800A330A0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		64F79CF2191F250800A330A0 /* Mode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mode;
-			sourceTree = "<group>";
-		};
-		64F79CF3191F250800A330A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		64F79CF4191F250800A330A0 /* Personal Center */ = {
-			isa = PBXGroup;
-			children = (
-				64F79CF5191F250800A330A0 /* Controller */,
-				64F79CF6191F250800A330A0 /* Mode */,
-				64F79CF7191F250800A330A0 /* View */,
-			);
-			path = "Personal Center";
-			sourceTree = "<group>";
-		};
-		64F79CF5191F250800A330A0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		64F79CF6191F250800A330A0 /* Mode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mode;
-			sourceTree = "<group>";
-		};
-		64F79CF7191F250800A330A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				64F79D06191F5C5A00A330A0 /* tmp2.h */,
+				64F79D07191F5C5A00A330A0 /* tmp2.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -588,12 +539,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F79D08191F5C5A00A330A0 /* tmp2.m in Sources */,
+				64F79D02191F5C3500A330A0 /* tmp.m in Sources */,
 				646A729B18EFE43600031C34 /* UIImage+Resize.m in Sources */,
 				646A72A218EFE4BE00031C34 /* NSString+Conversion.m in Sources */,
 				646A729718EFE43600031C34 /* TimNavigationBar.m in Sources */,
 				646A729818EFE43600031C34 /* TimViewController.m in Sources */,
 				646A72A118EFE4BE00031C34 /* NSDate+Conversion.m in Sources */,
 				646A724018EFE1DF00031C34 /* AppDelegate.m in Sources */,
+				64F79D05191F5C4600A330A0 /* tmp1.m in Sources */,
 				6425F10A191BA5DF00B83E67 /* TimRequest.m in Sources */,
 				646A723C18EFE1DF00031C34 /* main.m in Sources */,
 				646A724318EFE1E000031C34 /* CRM.xcdatamodeld in Sources */,
