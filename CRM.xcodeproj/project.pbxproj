@@ -176,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				646A726218EFE2FA00031C34 /* App */,
+				64F79CEC191F250800A330A0 /* Introducer */,
+				64F79CF0191F250800A330A0 /* Materials */,
+				64F79CF4191F250800A330A0 /* Personal Center */,
 				646A726318EFE2FA00031C34 /* Patient */,
 				6425F107191BA5AD00B83E67 /* Network */,
 				64B52CC819190B3700D988D8 /* Database */,
@@ -366,6 +369,99 @@
 				64B52CCA19190B9800D988D8 /* DBManager.m */,
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		64F79CEC191F250800A330A0 /* Introducer */ = {
+			isa = PBXGroup;
+			children = (
+				64F79CED191F250800A330A0 /* Controller */,
+				64F79CEE191F250800A330A0 /* Mode */,
+				64F79CEF191F250800A330A0 /* View */,
+			);
+			path = Introducer;
+			sourceTree = "<group>";
+		};
+		64F79CED191F250800A330A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64F79CEE191F250800A330A0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		64F79CEF191F250800A330A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64F79CF0191F250800A330A0 /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				64F79CF1191F250800A330A0 /* Controller */,
+				64F79CF2191F250800A330A0 /* Mode */,
+				64F79CF3191F250800A330A0 /* View */,
+			);
+			path = Materials;
+			sourceTree = "<group>";
+		};
+		64F79CF1191F250800A330A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64F79CF2191F250800A330A0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		64F79CF3191F250800A330A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64F79CF4191F250800A330A0 /* Personal Center */ = {
+			isa = PBXGroup;
+			children = (
+				64F79CF5191F250800A330A0 /* Controller */,
+				64F79CF6191F250800A330A0 /* Mode */,
+				64F79CF7191F250800A330A0 /* View */,
+			);
+			path = "Personal Center";
+			sourceTree = "<group>";
+		};
+		64F79CF5191F250800A330A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64F79CF6191F250800A330A0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		64F79CF7191F250800A330A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
